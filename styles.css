@@ -1,0 +1,648 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  flex-direction: row;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.ham-Menu {
+  display: none;
+}
+.nav-links {
+  margin-left: 25%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.bttn {
+  width: 95px;
+  height: 50px;
+  padding: 15px;
+  color: #eee;
+  background-color: orangered;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-colour 0.3s ease-in-out;
+}
+
+.bttn:hover {
+  background-color: darkred;
+}
+
+.bttn2 {
+  width: 230px;
+  height: 60px;
+  padding: 15px;
+  color: #eee;
+  background-color: orangered;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 30px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bttn2:hover {
+  background-color: darkred;
+}
+
+.hero-section {
+  height: 90vh;
+  width: 100%;
+  background-image: url(./images/banner.webp);
+  background-position: center;
+  background-size: cover;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15% 0 0 0;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: #444;
+}
+
+.hero-content p {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: #444;
+}
+
+/*CHOOSE SECTION  */
+/*CHOOSE SECTION  */
+.choose {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 35px 0 0 0;
+}
+
+.choose-top {
+  margin: 0 0 40px 0;
+}
+
+.choose-top h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #444;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+.choose-top p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+}
+
+.choose-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+.choose-grid img {
+  width: 280px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.choose-grid h3 {
+  font-size: #000;
+  font-weight: 500;
+  margin: 10px 0 0 0;
+}
+
+.choose-grid ul li::marker {
+  list-style: none;
+  content: "\2714";
+  color: green;
+  font-size: 14px;
+}
+
+/* WORKS SECTION */
+/* WORKS SECTION */
+.works {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin: 5% 0 0 0;
+  background-color: rgba(231, 205, 195, 0.8);
+}
+.left {
+  width: 50%;
+}
+.left img {
+  width: 50vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.right {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 0 60px;
+}
+
+.right-txt h3 {
+  display: flex;
+  font-size: 30px;
+  color: red;
+  font-weight: 600;
+}
+.right-txt p {
+  font-weight: 300px;
+  margin: 5px 0 20px 0;
+}
+.right-txt ol li {
+  margin: 0 20px 0 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.right-txt ol li::marker {
+  color: orangered;
+  font-weight: 800;
+  font-size: large;
+}
+
+.works .bttn2 {
+  margin-top: 30px;
+  width: 140px;
+}
+
+/* INSPIRING SECTION */
+/* INSPIRING SECTION */
+.inspiring {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.inspiring-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.inspiring h3 {
+  font-size: 35px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+}
+
+.inspiring p {
+  font-size: 20px;
+  color: #444;
+  font-weight: 300;
+  text-align: center;
+}
+
+.inspiring-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  margin: 0 0 40px 0;
+}
+
+.inspiring-grid img {
+  width: 280px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 30px 0px 0 0px;
+}
+
+.inspiring div {
+  position: relative;
+}
+.inspiring-grid div p {
+  position: absolute;
+  top: 80%;
+  right: 10px;
+}
+
+.vegan {
+  background-color: rgb(198, 240, 198);
+  color: green;
+  padding: 5px;
+  border-radius: 15px;
+  width: 30%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.weekly {
+  background-color: rgb(27, 127, 208);
+  color: green;
+  padding: 5px;
+  border-radius: 15px;
+  width: 65%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.vegetarian {
+  background-color: rgb(198, 240, 198);
+  color: green;
+  padding: 5px;
+  border-radius: 15px;
+  width: 45%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.inspiring.bx {
+  border: 1px solid orangered;
+  color: orangered;
+  border-radius: 50%;
+  height: 16%;
+  font-size: 30px;
+  padding: 2px 0 0 0;
+  margin: 100px 0 0 0;
+  transition: 0.5s ease-in-out;
+}
+.inspiring.bx:hover {
+  background-color: orangered;
+  color: white;
+}
+
+/* certified section */
+/* certified section */
+
+.certified {
+  background-color: rgb(238, 234, 234);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.certified-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+  gap: 10px;
+}
+.certified-top h3 {
+  color: black;
+  font-size: 35px;
+  text-decoration: underline 5px solid black;
+}
+.certified-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+}
+.certified-grid img {
+  width: 200px;
+  height: 200px;
+}
+.certified-txt {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: center;
+}
+.p1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+}
+.p1 strong {
+  color: red;
+}
+.p2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+.p2 img {
+  vertical-align: middle;
+  margin: 0;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px 0 0 0;
+  border-radius: 10px;
+  bottom: 0 4px 8px rgba(0 0 0 0.1);
+  margin: 5% 0 5% 0;
+  width: 75%;
+  transition: 0.5s ease-in;
+  outline: none;
+  border: none;
+}
+
+.banner-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.banner-text {
+  margin-right: 22%;
+}
+.banner-text .p3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.banner-text .p3 strong {
+  color: red;
+  margin: 0 5p 0 0;
+}
+.p3 button {
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 5px 20px;
+  font-weight: 700;
+}
+.p4 {
+  font-size: 14px;
+}
+.p4 a {
+  color: red;
+}
+.BcertifiedLOGO img {
+  width: 150px;
+  margin-left: 170%;
+}
+.banner:hover {
+  outline: 1px solid red;
+}
+/* SUBSCRIBE SECTION */
+/* SUBSCRIBE SECTION */
+.sub-section {
+  display: flex;
+  flex-direction: column;
+  height: 104vh;
+  width: 100%;
+  background-image: url(./images/subscribe.webp);
+  background-position: center;
+  background-size: cover;
+}
+.outroTxt p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  color: #b3b3b3;
+  font-size: small;
+}
+/* this is the subscribe inside the section */
+/* this is the subscribe inside the section */
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  bottom: 0 4px 8px rgba(0 0 0 0.1);
+  width: 72%;
+  height: 42%;
+  transition: 0.5s ease-in;
+  outline: none;
+  border: none;
+  margin: 8% 0% 0% 15%;
+}
+/* this is the subscribe inside the section */
+/* this is the subscribe inside the section */
+.subscribe h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #444;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.subscribe p {
+  color: #344;
+  font-size: medium;
+  font-weight: 400;
+  padding: 2% 0 0 0;
+}
+
+.subscribe .sub-txt1 {
+  color: red;
+  font-size: smaller;
+  padding-right: 39.3%;
+}
+.subscribe .sub-txt2 {
+  color: red;
+  font-size: smaller;
+  position: absolute;
+  padding: 0 0 0 18.6%;
+}
+.mailOutline {
+  outline: solid red;
+  opacity: 0.8;
+  outline-width: thin;
+  width: 38%;
+  height: 53px;
+  border-radius: 5px 0px 0px 5px;
+  margin-right: 0%;
+}
+.subscribe .bttn2 {
+  width: 10%;
+  height: 55px;
+  border-radius: 0px 7px 5px 0px;
+  margin-left: 0%;
+}
+
+/* FOOTER SECTION */
+/* FOOTER SECTION */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.footer .logo {
+  display: flex;
+  align-self: center;
+  width: 200px;
+  margin: 3% 0 3% 0;
+}
+.footer .logo img {
+  height: 30px;
+  cursor: pointer;
+}
+/* footer GRID */
+.footer .topGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 25px;
+  padding: 0 15% 0 15%;
+}
+.gridH4 {
+  font-weight: bolder;
+  color: lighter #333;
+}
+.topGrid a {
+  text-decoration: none;
+  color: #344;
+  font-weight: 20px;
+  margin-top: 5%;
+}
+
+/* middleGrid */
+.footer .middleGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  margin: 3% 0% 0% 0%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.footermail {
+  outline: solid black;
+  outline-width: thin;
+  border-radius: 0;
+  width: 55%;
+  height: 70%;
+  font-weight: lighter;
+}
+
+.ftterBtn {
+  width: 20%;
+  height: 73%;
+  border-radius: 5px 10px 0px 0px;
+  margin-left: 0%;
+  background-color: orangered;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+}
+/* .seeReviews {
+  margin-bottom: 5%;
+} */
+.footer .boxicons i {
+  color: rgb(176, 176, 176);
+  font-size: xx-large;
+  margin-right: 10%;
+  width: 20px;
+}
+/* END OF GRID*/
+.footer .bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+#bottomP1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 5px 0;
+}
+
+#bottomP2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bottomP2 strong {
+  color: red;
+}
+.topGrid .gridH4 {
+  color: #000;
+}
+
+.container {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.sticky-element .boxicons {
+  position: fixed;
+}
+
+.messageIcon {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  background-color: orangered;
+  cursor: pointer;
+  outline: none;
+  transition: 0.1s ease-out;
+}
+
+.messageIcon i {
+  font-size: 32px;
+  color: white;
+}
+
+.messageIcon:hover {
+  scale: 1.1;
+}
