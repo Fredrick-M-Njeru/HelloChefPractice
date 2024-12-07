@@ -69,12 +69,28 @@
     font-size: 12px;
     text-align: center;
 }
-/* inspiring-grid inside the inspiring div */
+/* inspiring-grid inside the inspiring div */ 
+
 .inspiring-grid .ImageSlot {
   display: none; 
 }
+.inspiring-grid i{
+  display: none;
+}
+.inspiringCarousel div p {
+  position: absolute;
+  top: 80%;
+  left: 90px;
+}
 
+.inspiringCarousel{
+  display: grid;
+  grid-template-columns: auto;
+  margin: 0 0 40px 0;
+}
 
-
-
+.inspiringCarousel i{
+  cursor: pointer;
+  
+}
 }

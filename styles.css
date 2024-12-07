@@ -249,7 +249,7 @@
   margin: 0 0 40px 0;
 }
 
-.inspiring-grid img {
+.inspiring img {
   width: 280px;
   height: 200px;
   object-fit: cover;
@@ -265,9 +265,15 @@
   top: 80%;
   right: 10px;
 }
+
+.inspiring-grid i{
+  cursor:pointer;
+}
 .inspiringCarousel{
   display: none;
 }
+
+
 .vegan {
   background-color: rgb(198, 240, 198);
   color: green;
