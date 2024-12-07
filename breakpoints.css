@@ -69,4 +69,12 @@
     font-size: 12px;
     text-align: center;
 }
+/* inspiring-grid inside the inspiring div */
+.inspiring-grid .ImageSlot {
+  display: none; 
+}
+
+
+
+
 }
